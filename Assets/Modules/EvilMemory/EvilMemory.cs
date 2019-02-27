@@ -34,8 +34,10 @@ public class EvilMemory : MonoBehaviour
         "Forget Everything", //Mandatory to prevent unsolvable bombs.
         "Turn The Key",      //TTK is timer based, and stalls the bomb if only it and FE are left.
         "Souvenir",          //Similar situation to TTK, stalls the bomb.
-        "The Time Keeper",   //Again, timilar to TTK.
+        "The Time Keeper",   //Again, similar to TTK.
         "Simon's Stages",    //Not sure, told to add it.
+        "Forget This",       //Same reason as FMN and FE.
+        "Purgatory",         //Quote from manual "If the LED is YELLOW, do not click anything on the module until every other module is disarmed, and then go to the last list in the manual."
     };
 
     private static Color LED_OFF = new Color(0, 0, 0, 0);
